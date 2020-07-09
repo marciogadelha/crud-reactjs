@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2%;
+}
+
+.App h1 {
+  margin: 20px auto;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container h2 {
+  margin: 15px auto;
+  font-size: 25px;
+  text-align: center;
+}
+
+.container h3 {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.flex-large {
+  border-top: 1px dotted #ccc;
+  margin: 30px auto;
+}
+
+.table {
+  text-align: center;
+}
+
+.cancelButton {
+  margin-left: 15px;
+}
+
+.deleteButton {
+  margin-left: 3px;
+}
+
+.tableButtons {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .mailField {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .companyField {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .jobField {
+    display: none;
+  }
+}
