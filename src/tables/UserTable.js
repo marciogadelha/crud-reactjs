@@ -53,7 +53,7 @@ const UserTable = props => (
         ))
       ) : (
         <tr>
-          <td colSpan={3}>Sem registros</td>
+          <td colSpan={6}>Sem registros</td>
         </tr>
       )}
     </tbody>
