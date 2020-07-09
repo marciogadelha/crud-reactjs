@@ -14,7 +14,7 @@ export default function App() {
       id: 1,
       firstName: "João",
       lastName: "Pereira",
-      email: "raphaelcardoso@google.com",
+      email: "joaopereira@google.com",
       company: "Google",
       job: "Engenheiro de Software",
       salary: 14000
